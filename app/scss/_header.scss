@@ -3,10 +3,8 @@
     padding: 24px;
   }
 
-  &__logo {
-    img {
-    }
-  }
+  // &__logo {
+  // }
 
   &__menu {
     //Mobile menu
@@ -28,6 +26,7 @@
     //setting for links only
     a {
       font-size: $font-small; //14px
+      color: $grayishBlue;
     }
   }
 
