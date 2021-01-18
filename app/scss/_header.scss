@@ -30,4 +30,9 @@
       font-size: $font-small; //14px
     }
   }
+
+  &__cta {
+    font-size: $font-small;
+    color: $white;
+  }
 }
