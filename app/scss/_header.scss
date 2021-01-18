@@ -1,0 +1,33 @@
+.header {
+  nav {
+    padding: 24px;
+  }
+
+  &__logo {
+    img {
+    }
+  }
+
+  &__menu {
+    //Mobile menu
+
+    > span {
+      //those little lines on the top right
+      display: block;
+      width: 26px;
+      height: 2px;
+      background-color: $darkBlue;
+
+      &:not(:last-child) {
+        margin-bottom: 3px;
+      }
+    }
+  }
+
+  &__links {
+    //setting for links only
+    a {
+      font-size: $font-small; //14px
+    }
+  }
+}
